@@ -1,0 +1,15 @@
+{
+  "name": "pnpm-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:next": "pnpm --filter nextjs-site dev",
+    "dev:astro": "pnpm --filter astro-site dev",
+    "build:next": "pnpm --filter nextjs-site build",
+    "build:astro": "pnpm --filter astro-site build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
